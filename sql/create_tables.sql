@@ -9,12 +9,13 @@ CREATE TABLE IF NOT EXISTS patients (
 
 -- Insert preloaded data if not already inserted
 INSERT INTO patients (patient_id, first_name, last_name, age, condition) VALUES
-  (1, 'Justin', 'Greenslade', 30, 'Asthma'),
+  (1, 'Justin', 'Greenslade', 33, 'Asthma'),
   (2, 'Ashton', 'Dennis', 19, 'Diabetes'),
-  (3, 'Joey', 'Thomas', 19, 'Hypertension'),
-  (4, 'Joseph', 'Gallant', 30, 'Arthritis')
+  (3, 'Joey', 'Thomas', 20, 'Hypertension'),
+  (4, 'Joseph', 'Gallant', 35, 'Arthritis'),
+  (5, 'Michael', 'Barney', 34, 'Amnesia')
 ON CONFLICT (patient_id) DO NOTHING;
 
--- reset id to start from 5 for next patient
-SELECT setval(pg_get_serial_sequence('patients', 'patient_id'), 4);
+-- reset id to start counting from 6 for next added patient
+SELECT setval(pg_get_serial_sequence('patients', 'patient_id'), 5);
 
