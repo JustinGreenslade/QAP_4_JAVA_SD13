@@ -1,4 +1,5 @@
-1,Aspirin,5.99,100mg
-2,Ibuprofen,8.49,200mg
-3,Gravol,9.99,500mg
-4,Benadryl,12.50,250mg
+1,Advil,8.99,200mg
+2,Tylenol,6.49,500mg
+3,Benadryl,7.99,25mg
+4,Gravol,5.99,50mg
+5,Reactine,10.99,10mg
