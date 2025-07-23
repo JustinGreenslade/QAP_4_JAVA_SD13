@@ -1,0 +1,4 @@
+1,Aspirin,5.99,100mg
+2,Ibuprofen,8.49,200mg
+3,Paracetamol,6.75,500mg
+4,Amoxicillin,12.50,250mg
