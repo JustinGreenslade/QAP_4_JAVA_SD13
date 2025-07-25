@@ -1,4 +1,4 @@
-1,Advil,8.99,200mg
+1,Motrin,8.99,200mg
 2,Tylenol,6.49,500mg
 3,Benadryl,7.99,25mg
 4,Gravol,5.99,50mg

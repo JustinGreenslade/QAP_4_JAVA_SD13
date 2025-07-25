@@ -38,9 +38,6 @@ public class Patient {
     }
 
     // Setters
-    public void setPatientId(int patientId) {
-        this.patientId = patientId;
-    }
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;

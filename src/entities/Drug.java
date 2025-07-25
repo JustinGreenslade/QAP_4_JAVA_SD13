@@ -32,10 +32,6 @@ public class Drug {
     }
 
     // Setters
-    public void setDrugId(int drugId) {
-        this.drugId = drugId;
-    }
-
     public void setDrugName(String drugName) {
         this.drugName = drugName;
     }
